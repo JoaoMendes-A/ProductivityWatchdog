@@ -1,3 +1,5 @@
+namespace Productivity.Domain.Entities;
+
 public class BlockedApplication
 {
     public int Id { get; private set; }

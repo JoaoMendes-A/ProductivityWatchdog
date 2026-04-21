@@ -1,3 +1,5 @@
+namespace Productivity.Domain.Entities;
+
 public class FocusRule
 {
     public int Id { get; set; }

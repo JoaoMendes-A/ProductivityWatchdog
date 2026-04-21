@@ -1,3 +1,5 @@
+namespace Productivity.Domain.Entities;
+
 public class DistractionEvent
 {
     public int Id { get; set; }
@@ -13,6 +15,6 @@ public class DistractionEvent
     public EventType EventType { get; set; }
 
     public SeverityLevel SeverityLevel { get; set; }
-    
+
     public int FocusSessionId { get; set; }
 }
