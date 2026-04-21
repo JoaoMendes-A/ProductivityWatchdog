@@ -1,0 +1,8 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/ProductivityWatchdog.Application/ProductivityWatchdog.Application.csproj" />
+    <Project Path="src/ProductivityWatchdog.Domain/ProductivityWatchdog.Domain.csproj" />
+    <Project Path="src/ProductivityWatchdog.Infrastructure/ProductivityWatchdog.Infrastructure.csproj" />
+    <Project Path="src/ProductivityWatchdog.Worker/ProductivityWatchdog.Worker.csproj" />
+  </Folder>
+</Solution>

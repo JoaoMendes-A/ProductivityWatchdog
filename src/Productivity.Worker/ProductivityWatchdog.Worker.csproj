@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk.Worker">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>dotnet-ProductivityWatchdog.Worker-29284933-0521-4ac8-8fdc-b86f7ac51607</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Hosting" Version="10.0.5" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ProductivityWatchdog.Application\ProductivityWatchdog.Application.csproj" />
+    <ProjectReference Include="..\ProductivityWatchdog.Infrastructure\ProductivityWatchdog.Infrastructure.csproj" />
+  </ItemGroup>
+</Project>
