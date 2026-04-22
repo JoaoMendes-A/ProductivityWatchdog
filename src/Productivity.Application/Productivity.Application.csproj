@@ -2,6 +2,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\ProductivityWatchdog.Domain\ProductivityWatchdog.Domain.csproj" />
+    <ProjectReference Include="..\Productivity.Domain\Productivity.Domain.csproj" />
   </ItemGroup>
 
   <PropertyGroup>
